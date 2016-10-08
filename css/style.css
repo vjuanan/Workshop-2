@@ -1,0 +1,148 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import "http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css";
+@import "https://fonts.googleapis.com/css?family=Crimson+Text|Source+Sans+Pro";
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.topnav {
+  text-align: center; }
+  .topnav .titnav {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Crimson text";
+    align-items: center; }
+    .topnav .titnav .search {
+      width: 33%;
+      text-align: left;
+      padding: 30px 0; }
+      .topnav .titnav .search .ion-ios-search-strong {
+        font-size: 20px;
+        font-weight: bold; }
+      .topnav .titnav .search input {
+        padding-left: 20px;
+        text-align: left;
+        font-size: 15px;
+        text-transform: uppercase;
+        border: none;
+        width: 33%; }
+    .topnav .titnav .imgfaraday {
+      width: 33%; }
+    .topnav .titnav .cont-carro {
+      width: 33%;
+      text-align: right; }
+      .topnav .titnav .cont-carro .bolsa {
+        display: inline-block; }
+      .topnav .titnav .cont-carro .ion-bag {
+        color: black;
+        background: white;
+        font-size: 20px; }
+      .topnav .titnav .cont-carro h3 {
+        display: inline-block;
+        text-transform: uppercase;
+        padding-right: 10px; }
+      .topnav .titnav .cont-carro .cad {
+        display: inline-block;
+        border: #808080 solid 1px; }
+        .topnav .titnav .cont-carro .cad h3 {
+          text-transform: uppercase;
+          padding: 6px; }
+  .topnav nav {
+    font-family: "Crimson text";
+    display: inline-block;
+    padding-bottom: 25px; }
+    .topnav nav ul {
+      display: flex;
+      justify-content: space-between; }
+      .topnav nav ul li {
+        display: inline-block; }
+        .topnav nav ul li a {
+          text-decoration: none;
+          color: black;
+          text-align: center;
+          padding: 10px 20px;
+          font-size: 20px; }
+
+.listashop {
+  display: inline-block;
+  font-family: "Crimson text";
+  padding: 20px 0;
+  padding-left: 20px;
+  border-top: grey solid 1px;
+  width: 25%; }
+  .listashop .shop-tit {
+    padding-bottom: 15px; }
+    .listashop .shop-tit h4 {
+      text-transform: uppercase;
+      font-size: 20px;
+      color: grey; }
+  .listashop ol li {
+    padding: 6px 0; }
+    .listashop ol li a {
+      color: blue;
+      font-size: 20px;
+      text-decoration: none; }
+  .listashop ul li {
+    padding: 2px 0;
+    padding-left: 15px; }
+    .listashop ul li a {
+      color: black;
+      font-size: 18px; }
+
+header {
+  display: inline-block;
+  width: 70%;
+  display: inline-block; }
+  header .contenedor {
+    max-width: 1024px;
+    margin: auto; }
+    header .contenedor .car .txt-img-car {
+      top: 250px;
+      right: -80px;
+      position: relative; }
+      header .contenedor .car .txt-img-car h3 {
+        color: white;
+        font-size: 40px;
+        display: inline-block; }
+      header .contenedor .car .txt-img-car h2 {
+        color: white;
+        font-size: 50px;
+        display: inline-block; }
+    header .contenedor .car img {
+      width: 100%; }
+    header .contenedor .gr0 img {
+      width: 50%; }
+
+/*# sourceMappingURL=style.css.map */
